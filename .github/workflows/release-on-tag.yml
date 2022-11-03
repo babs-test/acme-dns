@@ -37,3 +37,9 @@ jobs:
 #          prerelease: false
 #          files: |
 #              dist/*
+      -
+        name: Upload assets
+        uses: actions/upload-artifact@v3
+        with:
+          name: acme-dns
+          path: dist/*

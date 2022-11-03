@@ -37,7 +37,7 @@ jobs:
           prerelease: false
           files: |
               dist/acme-dns_*checksums.txt
-	      dist/acme-dns_*.tar.gz
+              dist/acme-dns_*.tar.gz
       -
         name: Upload assets
         uses: actions/upload-artifact@v3
